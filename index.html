@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Curso FrontEnd2021</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="./layouts/bootstrap.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,900&display=swap" rel="stylesheet" />
+    <link href="./assets/js/observers.js" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/estilos.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <div class="contenedor">
+        <!--Page One-->
+        <section class="pageOne" id="inicio">
+            <!-- <header> -->
+            <nav class="navbar navbar-expand-md navbar-light fixed-top pageOneNav">
+                <a class="navbar-brand" href="#inicio">Inicio</a>
+                <button class="navbar-toggler bg-danger" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+                <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active text-dark">
+                            <a class="nav-link" href="#page_Two">Contenido<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#page_Three">Mis trabajos</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#page_Four">Sobre mí</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#page_Five">Contacto</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </nav>
+            <!-- </header> -->
+            <div class="container">
+                <h1 class="font-weight-bold">Curso FrontEnd 2021</h1>
+            </div>
+        </section>
+        <!--Page Two-->
+        <section class="pageTwo row" id="page_Two">
+            <div class="htmll col-sm-12 col-md-6">Lenguaje de marcado de hipertexto, es usado para darle estructura a la página web
+            </div>
+            <div class="csss col-sm-12 col-md-6">Hoja de estilos en cascada, usada para darle estilo al documento web </div>
+            <div class="bt col-sm-12 col-md-4">Framework de CSS, basicamente una librería enorme de la cual tomamos las clases que nos sirvan</div>
+            <div class="git col-sm-12 col-md-4">Software de control de versiones, permite llevar registro de cambios</div>
+            <div class="js col-sm-12 col-md-4">Lenguaje de programación con el cual se le da dinamismo a las páginas web</div>
+        </section>
+        <!--Page Three-->
+        <section class="pageThree" id="page_Three">
+            <a href="https://antoniolliomar.github.io/RecetaPD2021/" target="blank"><img src="./assets/img/proy1.png" alt="1"></a>
+            <a href="https://antoniolliomar.github.io/RecetaPD2021/" target="blank"><img src="./assets/img/proy2.jpeg" alt="2"></a>
+            <a href="https://antoniolliomar.github.io/RecetaPD2021/" target="blank"><img src="./assets/img/proy3.jpeg" alt="3"></a>
+        </section>
+        <!--Page Four-->
+        <section class="pageFour row" id="page_Four">
+            <div class="col-sm-12 col-md-6"><img src="./assets/img/ana.png" alt=""></div>
+            <h2 class="col-sm-12 col-md-6">Me llamo Omar, tengo 25 años, soy una persona mediocre y corriente, pero sé bien lo que quiero en la televisión</h2>
+        </section>
+        <section class="pageFive" id="page_Five">
+            <h2 class="display-1">Contacto</h2>
+            <form action="mailto:antoniolli.omar2@gmail.com" method="post">
+                <label for="nombre">Nombre:</label>
+                <input id="nombre" type="text" name="nombre" placeholder="Nombre y Apellido" required="" />
+                <label for="email">Email:</label>
+                <input id="email" type="email" name="email" placeholder="antoniolli.omar2@gmail.com" required="" />
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" placeholder="Mensaje" required=""></textarea>
+                <input id="submit" type="submit" name="submit" value="Enviar" />
+            </form>
+            <hr size="2px" width="98%" noshade="noshade" align="center" />
+            <footer>
+                <div class="footer-content">
+                    <h3>Antoniolli Omar</h3>
+                    <p>Página proyecto - FrontEnd - Potrero Digital 2021</p>
+                    <ul class="socials">
+                        <li><a href="https://www.facebook.com/Omii.Antoniolli/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                        <!-- <li><a href="#"><i class="fa fa-google-plus"></i></a></li> -->
+                        <li><a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/omar-antoniolli/" target="_blank"><i class="fa fa-linkedin-square"></i></a></li>
+                    </ul>
+                </div>
+                <div class="footer-bottom">
+                    <p>copyright &copy;2021 Antoniolli Omar. designed by <span>cosmefulanito</span></p>
+                </div>
+            </footer>
+        </section>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="assets/js/vendor/popper.min.js"></script>
+    <script src="./layouts/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
+<!-- Color verde copado #3afaad-->
+<!-- Color verde parecido al copado #00ffb6-->

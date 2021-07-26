@@ -1,0 +1,66 @@
+    /* Move down content because we have a fixed navbar that is 3.5rem tall */
+    
+    body {
+        font-family: メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    }
+    
+    img {
+        border-radius: 1%;
+        box-shadow: 0 0 5px black, 0 0 15px black, 0 0 35px black;
+    }
+    
+    .cyb {
+        background-image: url(https://wallpaper.dog/large/5502365.jpg);
+        background-image: url(https://images.unsplash.com/photo-1610986603166-f78428624e76?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1340&q=80);
+        background-size: auto;
+        background-repeat: no-repeat;
+        background-repeat: repeat-y;
+        scroll-snap-type: y mandatory;
+        overflow-y: scroll;
+    }
+    
+    .cyb div {
+        scroll-snap-align: start;
+    }
+    
+    .dropd:hover {
+        background-color: transparent;
+        text-shadow: 0 0 5px whitesmoke, 0 0 15px whitesmoke, 0 0 25px whitesmoke;
+    }
+    
+    .shad {
+        text-shadow: 0 0 5px #c1306f, 0 0 15px black, 0 0 25px black, 0 0 45px black;
+    }
+    
+    .sec2 {
+        width: 100%;
+        margin: 0vh;
+        padding: 7vh;
+    }
+    
+    .mainn {
+        margin-right: 0;
+        height: 91vh;
+    }
+    
+    footer {
+        box-shadow: 0 0 1em hsla(0, 5%, 5.0000%, 0.75000);
+    }
+    
+    h1 {
+        color: #c1306f;
+        text-shadow: 0 0 5px #c1306f, 0 0 15px #c1306f, 0 0 25px #c1306f, 0 0 45px #c1306f;
+    }
+    
+    .ppasos {
+        width: 100vw;
+        height: 70vh;
+        background-image: url(file:///C:/Users/Monserrat/Downloads/Cursos/Front%20End%20Potrero%20Digital/PRIMEROS%20PASOS.gif);
+        margin-bottom: 30vh;
+    }
+    
+    @media only screen and (max-width: 768px) {
+        .mainn {
+            height: auto;
+        }
+    }
